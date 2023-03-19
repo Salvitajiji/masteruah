@@ -11,67 +11,69 @@
 
 
 $ git clone https://github.com/Salvitajiji/masteruah
-
+con este comando  clonamos el repositorio remoto a local
 
 
 $ cd masteruah/
-
+con este comando cambiamos a la carpeta masteruah
 
 $ git add README.md
 
 
 $ git commit -m "commit inicial"
 
-
-
 $ git push
+con estos tres comandos  subimos al repositorio el archivo readme.md ya modificado 
+
 
 $ git add fichero1.txt
+$ git commit -m "añadir fichero1.txt"
 
-
+añadimos fichero1 al repositorio local 
 
 $ git log
-
+comando para verificar si todo se ha ejecutado correctamente
  
 $ git tag v0.1
-
+creacion de un tag 
 
 $ git push --tags
-
+se sube el tag v0.1
 
 $ git branch v0.2
-
+se crea una rama llamada v0.2
 $ git checkout v0.2
-
+se camabia a la rama v0.2
 $ echo "contenido del fichero 2" > 2.txt
+se lleva la cadena de texto "" dentro del 2.txt en la rama v0.2
 
 $ git add 2.txt
-
 $ git commit -m "Añadir fichero 2.txt a la rama v0.2"
-
+se añade el fichero a la rama 
 
 $ git push -u origin v0.2
-
+se suben los cambios al repositorio remoto
 $ git checkout main
-
+se cambia a la rama main
 $ git merge v0.2
+se pasa la rama v0.2 a la rama main 
 
 $ git add "fichero1.txt"
-
 $ git commit -m " Agregado hola en fichero1.txt en la rama main"
-
+se añade el fichero1 y se introduce hola 
 $ git checkout v0.2
-
+se cambia a la rama v0.2
 $ echo "Adios" > "fichero1.txt"
-
+se introduce Adios en el fichero1
 $ git add "fichero1.txt"
 
 $ git commit -m "Agregado adios en fichero1.txt en la rama v0.2"
 [v0.2 2fb8674] Agregado adios en fichero1.txt en la rama v0.2
 
 $ git checkout main
-
+se cambia a la rama main
 $ git merge v0.2
+se pasa la rama v0.2 a la rama main
 Auto-merging fichero1.txt
 CONFLICT (content): Merge conflict in fichero1.txt
 Automatic merge failed; fix conflicts and then commit the result.
@@ -85,6 +87,8 @@ $ git branch --merge
 
 $ git branch --no-merge
   v0.2
+
+en estos se aplican para saber en que rama sse ha aplicado un merge y en cual no en este caso se le ha aplicaado a main 
 
 $ git status
 On branch main
@@ -101,15 +105,15 @@ Unmerged paths:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
-
+este git status se usa para ver que provoca el error en este caso se produce porque ambos archivos se estan modificando a la vez 
+    
 $ vim "fichero1.txt"
-
-
+este comando se utiliza para editar el archivo, ya que este nos muestra los contenidos que tiene el archivo en todas las ramas, o sea que es un editor de texto
+una vez editado y guardado se seguira con la pratica
+    
 $ git add "fichero1.txt"
-
-
 $ git commit -m "resulto conflito fichero1.txt"
-
+una vez guardado se  sube  el archivo de nuevo para ve r si el error ocurre de nuevo
 
 
 $ git status
@@ -119,12 +123,13 @@ Your branch is ahead of 'origin/main' by 5 commits.
 
 nothing to commit, working tree clean
 
+    el error se ha solucionado
 
 $ git tag v0.2
-
+se crea el tag v0.2
 $ git branch -D v0.2
 Deleted branch v0.2 (was 2fb8674).
-
+se elimina la rama v0.2
 
 $ git log --oneline --decorate --all
 723d38f (HEAD -> main, tag: v0.2) resulto conflito fichero1.txt
@@ -135,8 +140,10 @@ $ git log --oneline --decorate --all
 0615102 (origin/main, origin/HEAD) commit inicial
 beb5f9f Initial commit
 
+este comando genera un listado de cambios( lo que hemos realizado anteriormente )
 
-
+    
+    los comandos inferiores se utilizan para crear una llave shh
 $ cd ~/.ssh
 
 
@@ -178,4 +185,30 @@ $ cat github.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCWoyagh3eGf5l3fHMCCMb8BbzgRVTkUhtp+uX8v4spfqlw4PZ+CseZ+UCWQFygHbH7AjrBUaBdekwpkEdaN85DPqfhr4dKye1Johmse8zYDRSomE53UN6Xl7E/XcaWsbHXYGOxGZkZQLXaVJCWKA2qqY8OHa5aaI6y+OztGqm5zWIOA3Z4UFOOzF/+0EdQtzFzARBrzdK+4++VcRWXVH+S8FhI3S7rQl3dOwSePQFlOYIXVZNKpGu45VSbbhxcNw1AorEj90O3YD+gQRb8kI8uVUyPmIePQY/PNwT1zr2oHa8Q3Ps3AUrg/hoqJ3omHzj8tXDP04Bb8NVdPjFJuanOstuqkvFCRKSO3Q7yzbeNtfuFtDK9TZVnw8zsLu9vBsIK9z4OF001dFR2C+LhQcQcVi5GhfuuRVc4jfo7GajSY3hZ/y88yv95XS4ncSYAYdEFqtNM9kxKgDYNgoLaqfUkkn+giOyOdRpdpwHU7URA05L0Kbpn+xM4jYv3yy7r1mE= 34672@LAPTOP-KIVE1RPR
 
 
+    
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/a.png
+    
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/b.png
+    
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/c.png
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/d.png
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/e.png
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/f.png
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/g.png
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/h.png
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/i.png
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/j.png
+    
+    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/k.png
+    
 
