@@ -178,5 +178,4 @@ github  github.pub  id_rsa  id_rsa.pub
 $ cat github.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCWoyagh3eGf5l3fHMCCMb8BbzgRVTkUhtp+uX8v4spfqlw4PZ+CseZ+UCWQFygHbH7AjrBUaBdekwpkEdaN85DPqfhr4dKye1Johmse8zYDRSomE53UN6Xl7E/XcaWsbHXYGOxGZkZQLXaVJCWKA2qqY8OHa5aaI6y+OztGqm5zWIOA3Z4UFOOzF/+0EdQtzFzARBrzdK+4++VcRWXVH+S8FhI3S7rQl3dOwSePQFlOYIXVZNKpGu45VSbbhxcNw1AorEj90O3YD+gQRb8kI8uVUyPmIePQY/PNwT1zr2oHa8Q3Ps3AUrg/hoqJ3omHzj8tXDP04Bb8NVdPjFJuanOstuqkvFCRKSO3Q7yzbeNtfuFtDK9TZVnw8zsLu9vBsIK9z4OF001dFR2C+LhQcQcVi5GhfuuRVc4jfo7GajSY3hZ/y88yv95XS4ncSYAYdEFqtNM9kxKgDYNgoLaqfUkkn+giOyOdRpdpwHU7URA05L0Kbpn+xM4jYv3yy7r1mE= 34672@LAPTOP-KIVE1RPR
 
-  a.png
-https://github.com/Salvitajiji/masteruah/blob/557079fe8e9348538ef35ca94bb48102f19bf5d0/a.png
+<img scr="a.png"/>
