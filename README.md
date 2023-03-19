@@ -234,13 +234,16 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCWoyagh3eGf5l3fHMCCMb8BbzgRVTkUhtp+uX8v4sp
     https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/g.png
      
     crear organización
+    https://github.com/Salvitajiji/masteruah/blob/535d80e3a231b15a11dc5f165dceb1c8999f10de/imagenesgithub/l.png
     
+    equipos colaboradores e administradores
+    https://github.com/Salvitajiji/masteruah/blob/c043e5ea9f643c99300d6bd6312f5a3a10cd72b0/imagenesgithub/m.png
     
+    https://github.com/Salvitajiji/masteruah/blob/c043e5ea9f643c99300d6bd6312f5a3a10cd72b0/imagenesgithub/n.png
     
+    frok y pull request 
     
-    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/h.png
-    
-    https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/i.png
+    https://github.com/Salvitajiji/masteruah/blob/c043e5ea9f643c99300d6bd6312f5a3a10cd72b0/imagenesgithub/o.png
     
     https://github.com/Salvitajiji/masteruah/blob/297e72739728a68a5632660045ce9356b44789b8/imagenesgithub/j.png
     
