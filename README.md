@@ -52,7 +52,7 @@ $ git commit -m "Añadir fichero 2.txt a la rama v0.2"
 se añade el fichero a la rama 
 
 $ git push -u origin v0.2
-se suben los cambios al repositorio remoto
+se suben los cambios al repositorio remoto en la rama v0.2
 $ git checkout main
 se cambia a la rama main
 $ git merge v0.2
